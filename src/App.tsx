@@ -22,7 +22,7 @@ function App() {
             </p>
             <button className="bg-gradient-to-t from-[#f02aa6] to-[#FF6F48]  w-fit  text-white py-3 px-12 rounded-full mx-3 active:opacity-70 hover:opacity-70" type="button">Get Started</button>
           </div>
-          <div className=" z-1 flex max-w-full w-full h-full  md:h-[640px] bg-no-repeat md:bg-[bottom_6rem_left_-3rem] bg-[url(/starter-code/assets/image-hero-mobile.webp)] md:bg-[url(/starter-code/assets/image-hero-tablet.webp)] lg:bg-[url(/starter-code/assets/image-hero-desktop.webp)]"></div>
+          <div className=" z-1 flex max-w-full w-full h-full  md:h-[640px] bg-no-repeat md:bg-[bottom_6rem_left_-3rem] bg-[url(/starter-code/assets/image-hero-mobile.webp)] md:bg-[url(/src/assets/image-hero-tablet.webp)] lg:bg-[url(/src/assets/image-hero-desktop.webp)]"></div>
         </section>
 
         <main className="grid  auto-rows-[minmax(0,1fr)]  auto-cols-fr   md:grid-cols-2 lg:mb-12 lg:mt-20  lg:grid-cols-3 lg:grid-cols-[30%,30%,30%] ">
@@ -31,7 +31,7 @@ function App() {
           </p>
 
           <section className="relative bg-white dark:bg-[#13183F] border-2 border-[#f02aa6] w-[90%] rounded-lg mx-auto mt-5 mb-5">
-            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="/assets/icon-animation.svg" alt="animation"></img>
+            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="src/assets/icon-animation.svg" alt="animation"/>
               <div>
                 <h2 className="px-3 pt-10 font-bold dark:text-white ">Animation</h2>
                 <p className="text-[#83869A] dark:text-white py-5 px-3 w-3/4 text-balance">
@@ -44,7 +44,7 @@ function App() {
           </section>
 
           <section className="relative bg-white dark:bg-[#13183F] border-2 border-[#f02aa6] w-[90%] rounded-lg mx-auto mt-5 mb-5">
-            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="/assets/icon-design.svg" alt="ux"></img>
+            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="src/assets/icon-design.svg" alt="ux"/>
               <div>
                 <h2 className="px-3 pt-10 font-bold  dark:text-white ">UX/UI Design</h2>
                 <p className="text-[#83869A] dark:text-white py-5 px-3 w-3/4 text-balance">
@@ -57,7 +57,7 @@ function App() {
           </section>
 
           <section className="relative bg-white dark:bg-[#13183F] border-2 border-[#f02aa6] w-[90%] rounded-lg mx-auto mt-5 mb-5">
-            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="/assets/icon-photography.svg" alt="photography"></img>
+            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="src/assets/icon-photography.svg" alt="photography"/>
               <div>
                 <h2 className="px-3 pt-10 font-bold  dark:text-white">Photography</h2>
                 <p className="text-[#83869A] dark:text-white py-5 px-3 w-3/4 text-balance">
@@ -70,7 +70,7 @@ function App() {
           </section>
 
           <section className="relative bg-white dark:bg-[#13183F] border-2 border-[#f02aa6] w-[90%] rounded-lg mx-auto mt-5 mb-5">
-            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="/assets/icon-crypto.svg" alt="crypto"></img>
+            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="src/assets/icon-crypto.svg" alt="crypto"/>
               <div>
                 <h2 className="px-3 pt-10 font-bold  dark:text-white">Crypto</h2>
                 <p className="text-[#83869A] dark:text-white py-5 px-3 w-3/4 text-balance">
@@ -83,7 +83,7 @@ function App() {
           </section>
 
           <section className="relative bg-white dark:bg-[#13183F] border-2 border-[#f02aa6] w-[90%] rounded-lg mx-auto mt-5 mb-5">
-            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="/assets/icon-business.svg" alt="business"></img>
+            <img className="px-3 pb-3 mt-3 absolute  bottom-[80%] " src="src/assets/icon-business.svg" alt="business"/>
               <div>
                 <h2 className="px-3 pt-10 font-bold  dark:text-white">Business</h2>
                 <p className="text-[#83869A] dark:text-white py-5 px-3 w-3/4 text-balance">
@@ -99,12 +99,11 @@ function App() {
 
       <footer className="bg-[#13183F] py-12 px-4 w-full md:w-[95%] lg:w-full lg:px-12  lg:w-full">
         <div className=" flex lg:max-w-[85%]  items-center justify-between">
-          <div className=" h-8 w-[200px] bg-no-repeat mx-0 my-auto bg-[url(/starter-code/assets/logo-dark.svg)] dark: bg-[url(/starter-code/assets/logo-light.svg)]">
+          <div className=" h-8 w-[200px] bg-no-repeat mx-0 my-auto bg-[url(./src/assets/logo-dark.svg)] dark: bg-[./url(src/assets/logo-light.svg)]">
           </div>
           <button className="bg-gradient-to-t from-[#F02AA6] to-[#4851FF] w-fit  text-white py-5 px-10 rounded-full ml-3 font-semibold text-lg active:brightness-150 hover:brightness-150" type="button">Get Started</button>
         </div>
       </footer>
-
     </>
   )
 }

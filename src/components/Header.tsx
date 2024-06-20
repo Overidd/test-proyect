@@ -4,7 +4,7 @@ const Header = memo(() => {
   return (
     <>
       <nav className="flex w-full px-3 pt-5 pb-3 justify-between bg-opacity-0">
-            <img className="h-8 mx-0 my-auto" src="/starter-code/assets/logo-dark.svg" alt="logo" />
+            <img className="h-8 mx-0 my-auto" src="src/assets/logo-dark.svg" alt="logo" />
 
             <div className=" h-8 w-[200px] bg-no-repeat mx-0 my-auto bg-[url(/starter-code/assets/logo-dark.svg)] dark:bg-[url(/starter-code/assets/logo-light.svg)]">
             </div>
